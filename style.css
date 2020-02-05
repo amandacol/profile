@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400');
 
 body {
-margin-top: 50px;
+margin-top: 2%;
 background-color: #e2ae77;
 font-family: 'Raleway', sans-serif;
 color: #131313;
@@ -11,14 +11,14 @@ line-height: 30px;
 }
 
 #perfillinkedin {
-width: 200px;
+width: 100%;
 border-radius: 50%;
 border: 5px solid #edc795;
 }
 
 .imagem{
-  width: 200px;
-  margin: 0 auto -100px;
+  width: 20%;
+  margin: 0 auto -7%;
 }
 
 .header h1 {
@@ -28,11 +28,11 @@ font-size: 35px;
 font-weight: bold;
 line-height: 30px;
 width: 700px;
-margin: 10px auto 30px;
+margin: 1% auto 3%;
 text-align: center;
 background-color: #edc795;
 border-radius: 5px;
-padding: 90px 0 40px;
+padding: 7% 0 3%;
 box-shadow: 0px 4px 30px rgba(0,0,0,0.11);
 }
 
@@ -44,7 +44,7 @@ font-weight: bold;
 line-height: 30px;
 margin: 0 auto;
 text-align: center;
-padding-top: 2px;
+padding-top: 0.2%;
 }
 
 .description {
@@ -53,17 +53,17 @@ color: #353535;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
-padding: 0 50px;
+padding: 0 10%;
 text-align: center;
-margin: 0 50px;
+margin: 0 5%;
 }
 
 .socialmedia {
   background-color: #edc795;
-  padding: 20px;
+  padding: 1.5%;
   border-radius: 5px;
   box-shadow: 0px 4px 30px rgba(0,0,0,0.12);
-  margin: 0 100px;
+  margin: 0 10%;
 }
 
 .socialmedia a {
@@ -84,12 +84,21 @@ text-align: center;
  }
  .socialmedia li {
   display: inline;
-  margin: 0 20px;
+  margin: 0 5%;
 }
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
+    width: 700px;
+  }
+  .header h1 {
+    width: 700px;
+  }
+  .socialmedia{
+    width: 700px;
+  }
+  .description {
     width: 700px;
   }
 }
@@ -98,10 +107,32 @@ text-align: center;
   .container {
     width: 500px;
   }
+  .header h1 {
+    width: 500px;
+  }
+  .socialmedia{
+    width: 500px;
+  }
+  .description {
+    width: 500px;
+    margin: 0;
+    padding: 0;
+  }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+  }
+  .header h1 {
+    width: 300px;
+  }
+  .socialmedia{
+    width: 300px;
+  }
+  .description {
+    width: 300px;
+    margin: 0;
+    padding: 0;
   }
 }
